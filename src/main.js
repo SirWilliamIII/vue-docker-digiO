@@ -31,14 +31,14 @@ new Vue({
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">H.R. Buddy - </a>
+          <a class="navbar-brand" href="#">H.R. Buddy - </a><em>at your service</em></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><router-link to="/">Home</router-link></li>
-            <li><router-link to="/about">About</router-link></li>
+            <li class="navlink"><router-link to="/">Home</router-link></li>
+            <li class="navlink"><router-link to="/about">About</router-link></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right navlink">
             <li><router-link to="/add">Add Customer</router-link></li>
           </ul>
         </div>
