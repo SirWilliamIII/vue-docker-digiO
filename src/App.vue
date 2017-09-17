@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Welcome to Docker</h1>
+    <h1>Welcome to Docker, bitches</h1>
     <img src="./assets/logo.png">
     <hello></hello>
   </div>
